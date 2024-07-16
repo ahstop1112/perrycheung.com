@@ -90,7 +90,56 @@ export const tagList = ['All', 'Platform', 'Ecommerce', 'Corporate', 'Campaign',
 export const heights = [150, 30, 90, 70, 110, 150, 130, 80, 50, 90, 100, 150, 30, 50, 80];
 
 export const tagListContent = [
-  
+  {
+    img: 'perrycheung-corporate.jpg',
+    title: 'Perry Cheung Personal Website',
+    slug: 'perrycheung-corporate',
+    tag: 'Corporate',
+    delayAnimation: '0',
+    content: {
+      companyName: 'perrycheung.com',
+      projectDate: '2024',
+      description: [
+        'PerryCheung.com is my personal portfolio website which is showing my portfolio and the details of each project.',
+        'Using various technologies include ReactJS (Hooks), Material-UI, GIT',
+      ],
+      hashtags: [
+        'Coding Architecture',
+        'Single Page Application',
+        'ReactJS',
+        'MaterialUI',
+        'Javascript ES6+',
+        'Github',
+      ],
+      imgItems: [
+        {
+          img: 'perrycheung-corporate.jpg',
+          title: 'PerryCheung.com',
+          tag: 'PerryCheung.com',
+          imgLink: '',
+          delayAnimation: '0',
+        },{
+          img: 'perrycheung-corporate-2.jpg',
+          title: 'PerryCheung.com Portfolio',
+          tag: 'PerryCheung.com Portfolio',
+          imgLink: '',
+          delayAnimation: '0',
+        }
+      ],
+      links: ['https://www.perrycheung.com/'],
+      liveLinks: [{
+        title: 'PerryCheung.com',
+        url: 'https://www.perrycheung.com/',
+      },{
+        title: 'PerryCheung.com Portfolio',
+        url: 'https://www.perrycheung.com/portfolio',
+      }],
+      gitLink: [{
+        title: 'Source Code',
+        url: 'https://github.com/ahstop1112/perrycheung.com/',
+      }],
+    },
+  },
   {
     img: 'simplicity-cms-system.jpg',
     title: 'Simplicity Content Management System',
@@ -110,7 +159,6 @@ export const tagListContent = [
         'ReactJS',
         'TypeScript', 
         'MaterialUI',
-        'TypeScript',
         'Javascript ES6+',
         'Figma',
         'Restful API Integration',
@@ -162,7 +210,6 @@ export const tagListContent = [
         'ReactJS',
         'TypeScript', 
         'MaterialUI',
-        'TypeScript',
         'Javascript ES6+',
         'UX/UI Design',
         'Restful API Integration',
@@ -195,7 +242,7 @@ export const tagListContent = [
     title: 'Haitong Securities International Corporate Website',
     slug: 'haitong-securities-corporate-website',
     tag: 'Corporate',
-    delayAnimation: '0',
+    delayAnimation: '100',
     content: {
       companyName: 'Hatong International Securities Limited',
       projectDate: '2022',

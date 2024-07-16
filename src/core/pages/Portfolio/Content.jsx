@@ -13,7 +13,7 @@ const Content = ({ slug }) => {
   const classes = usePortfolioStyles();
   const portfolio = tagListContent.find(item => item.slug === slug) || {};
   const { img, tag, title, content } = portfolio || {};
-  const { description, projectDate, companyName, hashtags, imgItems, liveLinks } = content || {};
+  const { description, projectDate, companyName, hashtags, imgItems, liveLinks, gitLink } = content || {};
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -44,6 +44,18 @@ const Content = ({ slug }) => {
                   {`${t('Portfolio.liveLinks')}: `}
                   <span>
                     {liveLinks.map((link) => (
+                      <a key={link?.title} href={link?.url} target='_blank'>
+                        {link?.title}
+                      </a>
+                    ))}
+                  </span>
+                </div>
+              )}
+              {gitLink && gitLink.length > 0 && (
+                <div className={classes.gitLink}>
+                  {`${t('Portfolio.gitLink')}: `}
+                  <span>
+                    {gitLink.map((link) => (
                       <a key={link?.title} href={link?.url} target='_blank'>
                         {link?.title}
                       </a>

@@ -88,6 +88,7 @@
     "companyName": "Company",
     "projectDate": "Project Date",
     "liveLinks": "Live Link(s)",
+    "gitLink": "Git Link",
     "hashtags": "Hashtags"
   },
   "CallToAction": {

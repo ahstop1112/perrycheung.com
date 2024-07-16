@@ -108,6 +108,25 @@ const PortfolioStyles = makeStyles((theme) => ({
       },
     },
   },
+  gitLink: {
+    display: `flex`,
+    alignItems: 'flex-start',
+    '& span': {
+      display: 'inline-block',
+      marginLeft: 66,
+      fontWeight: 500,
+      color: `#fff`,
+    },
+    '& a': {
+      display: 'block',
+      marginBottom: 5,
+      color: `#fff`,
+      cursor: 'pointer',
+      '&:hover': {
+        textDecoration: 'underline',
+      },
+    },
+  },
   description: {
     marginTop: 30,
     '& p': {
