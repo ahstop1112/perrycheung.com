@@ -92,7 +92,7 @@ export const heights = [150, 30, 90, 70, 110, 150, 130, 80, 50, 90, 100, 150, 30
 export const tagListContent = [
   
   {
-    img: 'simplicity-cms-system.png',
+    img: 'simplicity-cms-system.jpg',
     title: 'Simplicity Content Management System',
     slug: 'simplicity-cms-system',
     tag: 'Platform',
@@ -119,13 +119,13 @@ export const tagListContent = [
       ],
       imgItems: [
         {
-          img: 'simplicity-cms-system.png',
+          img: 'simplicity-cms-system.jpg',
           title: 'Simplicity',
           tag: 'simplicity',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'simplicity-cms-system-2.png',
+          img: 'simplicity-cms-system-2.jpg',
           title: 'Dnv.org Revamp',
           tag: 'dnv.org',
           imgLink: '',
@@ -144,7 +144,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'haitong-internal-system.png',
+    img: 'haitong-internal-system.jpg',
     title: 'Haitong Operating System',
     slug: 'haitong-operating-system',
     tag: 'Platform',
@@ -171,14 +171,14 @@ export const tagListContent = [
       ],
       imgItems: [
         {
-          img: 'haitong-internal-system.png',
+          img: 'haitong-internal-system.jpg',
           title: 'In-house 01',
           tag: 'In-house',
           imgLink: '',
           delayAnimation: '0',
         },
         {
-          img: 'haitong-internal-system.png',
+          img: 'haitong-internal-system.jpg',
           title: 'In-house 02',
           tag: 'In-house',
           imgLink: '',
@@ -281,7 +281,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'ipms-property-managment-platform.png',
+    img: 'ipms-property-managment-platform.jpg',
     title: 'IPMS Property Management platform',
     slug: 'ipms-property-managment-platform',
     tag: 'Platform',
@@ -296,14 +296,14 @@ export const tagListContent = [
       hashtags: ['Coding Architecture', 'ReactJS', 'MaterialUI', 'TypeScript', 'UX/UI Design', 'AWS'],
       imgItems: [
         {
-          img: 'ipms-property-managment-platform.png',
+          img: 'ipms-property-managment-platform.jpg',
           title: 'Listing Records',
           tag: 'In-house',
           imgLink: '',
           delayAnimation: '0',
         },
         {
-          img: 'ipms-property-managment-platform2.png',
+          img: 'ipms-property-managment-platform2.jpg',
           title: 'Edit Record',
           tag: 'In-house',
           imgLink: '',
@@ -362,7 +362,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'fayfay-ecommerce-website.png',
+    img: 'fayfay-ecommerce-website.jpg',
     title: 'Fayfay.com Travel Experiences Ecommerce Website',
     slug: 'fayfay-ecommerce-website',
     tag: 'Ecommerce',
@@ -377,13 +377,13 @@ export const tagListContent = [
       hashtags: ['Coding Architecture', 'ReactJS', 'MaterialUI', 'NodeJS', 'ExpressJS', 'MongoDB', 'AWS'],
       imgItems: [
         {
-          img: 'fayfay-ecommerce-website.png',
+          img: 'fayfay-ecommerce-website.jpg',
           title: 'Listing Records',
           tag: 'In-house',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'fayfay-ecommerce-website.png',
+          img: 'fayfay-ecommerce-website.jpg',
           title: 'Listing Records',
           tag: 'In-house',
           imgLink: '',
@@ -399,7 +399,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'prada-totem-game.png',
+    img: 'prada-totem-game.jpg',
     title: 'Prada Totem IPad Game for reatil store promotion',
     slug: 'prada-totem-game',
     tag: 'Campaign',
@@ -414,13 +414,13 @@ export const tagListContent = [
       hashtags: ['Coding Architecture', 'ReactJS', 'CSS3 Animation', 'Digital Ocean'],
       imgItems: [
         {
-          img: 'prada-totem-game.png',
+          img: 'prada-totem-game.jpg',
           title: 'Simple Game Interface',
           tag: 'In-house',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'prada-totem-game.png',
+          img: 'prada-totem-game.jpg',
           title: 'Simple Game Interface',
           tag: 'In-house',
           imgLink: '',
@@ -433,7 +433,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'esteen-lauder-ecommerce-website.png',
+    img: 'esteen-lauder-ecommerce-website.jpg',
     title: 'Esteen Lauder Ecommerce Website',
     slug: 'esteen-lauder-ecommerce-website',
     tag: 'Ecommerce',
@@ -448,13 +448,13 @@ export const tagListContent = [
       hashtags: ['PHP Framework (Lavarel)', 'JQuery', 'HTML5', 'AWS'],
       imgItems: [
         {
-          img: 'esteen-lauder-ecommerce-website.png',
+          img: 'esteen-lauder-ecommerce-website.jpg',
           title: 'Home Page',
           tag: 'In-house',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'esteen-lauder-ecommerce-website.png',
+          img: 'esteen-lauder-ecommerce-website.jpg',
           title: 'Home Page',
           tag: 'In-house',
           imgLink: '',
@@ -489,7 +489,7 @@ export const tagListContent = [
           delayAnimation: '0',
         },
         {
-          img: 'audi-progressive-like-you-campaign2.png',
+          img: 'audi-progressive-like-you-campaign2.jpg',
           title: 'Simple Game Interface',
           tag: 'In-house',
           imgLink: '',
@@ -509,7 +509,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'uniqlo-re-jean-campaign.png',
+    img: 'uniqlo-re-jean-campaign.jpg',
     title: 'Uniqlo 10 years Re-Jean DIY Workshop Campaign',
     slug: 'uniqlo-re-jean-campaign',
     tag: 'Campaign',
@@ -536,13 +536,13 @@ export const tagListContent = [
       ],
       imgItems: [
         {
-          img: 'uniqlo-re-jean-campaign.png',
+          img: 'uniqlo-re-jean-campaign.jpg',
           title: 'Simple Game Interface',
           tag: 'In-house',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'uniqlo-re-jean-campaign.png',
+          img: 'uniqlo-re-jean-campaign.jpg',
           title: 'Simple Game Interface',
           tag: 'In-house',
           imgLink: '',
@@ -560,7 +560,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'uniqlo-air-ism-campaign.png',
+    img: 'uniqlo-air-ism-campaign.jpg',
     title: 'Uniqlo AIRism Campaign',
     slug: 'uniqlo-air-ism-campaign',
     tag: 'Campaign',
@@ -575,13 +575,13 @@ export const tagListContent = [
       hashtags: ['PHP Framework Yii', 'Canavs', 'HTML5', 'CSS3', 'JQuery', 'SEO, AWS'],
       imgItems: [
         {
-          img: 'uniqlo-air-ism-campaign.png',
+          img: 'uniqlo-air-ism-campaign.jpg',
           title: 'Simple Game Interface',
           tag: 'In-house',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'uniqlo-air-ism-campaign.png',
+          img: 'uniqlo-air-ism-campaign.jpg',
           title: 'Simple Game Interface',
           tag: 'In-house',
           imgLink: '',
@@ -884,7 +884,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'future-animation-wordpress.png',
+    img: 'future-animation-wordpress.jpg',
     title: 'Future Animation',
     slug: 'future-animation-wordpress',
     tag: 'Wordpress',
@@ -909,13 +909,13 @@ export const tagListContent = [
       ],
       imgItems: [
         {
-          img: 'future-animation-wordpress.png',
+          img: 'future-animation-wordpress.jpg',
           title: 'Future Animation',
           tag: 'Future Animation',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'future-animation-wordpress-album.png',
+          img: 'future-animation-wordpress-album.jpg',
           title: 'Lightbox Album',
           tag: 'Future Animation Album',
           imgLink: '',
@@ -935,7 +935,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'go-illustrator-wordpress.png',
+    img: 'go-illustrator-wordpress.jpg',
     title: 'Go Illustratror',
     slug: 'go-illustrator-wordpress',
     tag: 'Wordpress',
@@ -960,13 +960,13 @@ export const tagListContent = [
       ],
       imgItems: [
         {
-          img: 'go-illustrator-wordpress.png',
+          img: 'go-illustrator-wordpress.jpg',
           title: 'Go Illustratror',
           tag: 'Go Illustratror',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'go-illustrator-wordpress-competitions.png',
+          img: 'go-illustrator-wordpress-competitions.jpg',
           title: 'Go Illustratror Competitions',
           tag: 'Go Illustratror Competitions',
           imgLink: '',
@@ -986,7 +986,7 @@ export const tagListContent = [
     },
   },
   {
-    img: 'hkfmf-wordpress.png',
+    img: 'hkfmf-wordpress.jpg',
     title: 'THE FIRST HONG KONG FILM MUSIC FIESTA',
     slug: 'hkfmf-wordpress',
     tag: 'Wordpress',
@@ -1011,13 +1011,13 @@ export const tagListContent = [
       ],
       imgItems: [
         {
-          img: 'hkfmf-wordpress.png',
+          img: 'hkfmf-wordpress.jpg',
           title: 'THE FIRST HONG KONG FILM MUSIC FIESTA',
           tag: 'THE FIRST HONG KONG FILM MUSIC FIESTA',
           imgLink: '',
           delayAnimation: '0',
         },{
-          img: 'hkfmf-wordpress-acknowledgement.png',
+          img: 'hkfmf-wordpress-acknowledgement.jpg',
           title: 'THE FIRST HONG KONG FILM MUSIC FIESTA (HKFMF) Acknowledgement',
           tag: 'THE FIRST HONG KONG FILM MUSIC FIESTA (HKFMF) Acknowledgement',
           imgLink: '',

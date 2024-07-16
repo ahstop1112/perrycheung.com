@@ -4,7 +4,6 @@ const PortfolioStyles = makeStyles((theme) => ({
   portfolioPage: {
     background: '#0e0e17',
     color: theme.palette.text[5],
-    border: `10px solid red`,
     position: `relative`,
     minHeight: `100vh`,
     width: `100%`,

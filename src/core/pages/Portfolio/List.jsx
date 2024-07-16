@@ -14,7 +14,6 @@ const List = ({ tag }) => {
     const classes = useHomeStyles();
     const navigate = useNavigate();
     const tagIndex = tagList.findIndex(item => item.toLowerCase() === tag)
-    console.log(tagIndex)
     const [currentTag, setCurrentTag] = useState(tag ? tagIndex : 0);
     const sortedObjbyDate = tagListContent.sort((p1, p2) =>
     p1.content.projectDate < p2.content.projectDate ? 1 : p1.content.projectDate > p2.content.projectDate ? -1 : 0,
