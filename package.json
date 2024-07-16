@@ -1,0 +1,83 @@
+{
+  "name": "new-perry-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.92",
+    "@mui/material": "^5.15.15",
+    "@mui/styles": "^5.9.2",
+    "@mui/x-date-pickers": "^7.3.1",
+    "@react-keycloak/web": "^3.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/mapbox-gl": "^3.1.0",
+    "@types/simple-react-lightbox": "^3.6.7",
+    "@wojtekmaj/react-timerange-picker": "^3.5.0",
+    "aos": "^2.3.4",
+    "axios": "^1.6.8",
+    "i18next": "^23.11.3",
+    "i18next-browser-languagedetector": "^7.2.1",
+    "i18next-http-backend": "^2.5.1",
+    "mapbox-gl": "^3.3.0",
+    "moment": "^2.30.1",
+    "node-sass": "^9.0.0",
+    "query-string": "^9.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.51.3",
+    "react-i18next": "^14.1.1",
+    "react-map-gl": "^7.1.7",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "5.0.1",
+    "react-scrollspy": "^3.4.3",
+    "react-slick": "^0.30.2",
+    "react-tabs": "^6.0.2",
+    "react-text-loop": "^2.3.0",
+  "tsparticles": "^3.3.0",
+    "simple-react-lightbox": "^3.6.9-0",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3"
+  }
+}
