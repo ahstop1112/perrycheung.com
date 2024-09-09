@@ -3,86 +3,158 @@ export const skillTypeData = [
     title: 'frontendDev',
     content: 'frontendContent',
     delayAnimation: 0,
+    images: [
+      { img: 'js.png', label: 'javascript', number: '90percent', bar: 95, delayAnimation: '200' },
+      {
+        img: 'react.png',
+        label: 'reactJS',
+        number: '95percent',
+        bar: 95,
+        delayAnimation: '0',
+      },
+      {
+        img: 'ts.png',
+        label: 'typeScript',
+        number: '85percent',
+        bar: 85,
+        delayAnimation: '100',
+      },
+      {
+        img: 'redux.png',
+        label: 'redux',
+        number: '80percent',
+        bar: 80,
+        delayAnimation: '150',
+      },
+      { img: 'vue.png', label: 'vueJS', number: '80percent', bar: 80, delayAnimation: '250' },
+      { img: 'angular.svg', label: 'angular', number: '80percent', bar: 80, delayAnimation: '300' },
+      { img: 'bootstrap.png', label: 'bootstrap', number: '80percent', bar: 80, delayAnimation: '300' },
+      { img: 'sass.png', label: 'sass', number: '80percent', bar: 80, delayAnimation: '300' },
+      { img: 'tailwindcss.png', label: 'tailwindcss', number: '80percent', bar: 80, delayAnimation: '300' },
+      
+    ]
   },
   {
     title: 'backendDev',
     content: 'backendDevContent',
     delayAnimation: 50,
+    images: [
+      {
+        img: 'nodeJS.png',
+        label: 'nodeJS',
+        delayAnimation: '100',
+      },
+      { img: 'asp.png', label: 'ASP', number: '70percent', bar: 70, delayAnimation: '150' },
+      { img: 'php.png', label: 'PHP', number: '90percent', bar: 90, delayAnimation: '200' },
+      { img: 'wordpress.png', label: 'wordpress', number: '90percent', bar: 90, delayAnimation: '250' },
+      { img: 'woocommerce.png', label: 'woocommerce', number: '90percent', bar: 90, delayAnimation: '300' },
+    ]
+  },
+  {
+    title: 'databaseDev',
+    content: 'databaseDevContent',
+    delayAnimation: 50,
+    images: [
+      { img: 'mongoDB.png', label: 'MongoDB', number: '75percent', bar: 75, delayAnimation: '100' },
+      { img: 'graphQL.png', label: 'graphQL', number: '75percent', bar: 75, delayAnimation: '100' },
+      { img: 'mysql.png', label: 'mySQL', number: '75percent', bar: 75, delayAnimation: '100' },
+      { img: 'postgresql.svg', label: 'postgresql', number: '75percent', bar: 75, delayAnimation: '150' },
+    ]
   },
   {
     title: 'mobileDev',
     content: 'mobileDevContent',
     delayAnimation: 100,
-  },
-  {
-    title: 'database',
-    content: 'databaseContent',
-    delayAnimation: 150,
+    images: [
+      {
+        img: 'react.png',
+        label: 'reactNative',
+        number: '95percent',
+        bar: 95,
+        delayAnimation: '0',
+      },
+      {
+        img: 'flutter.png',
+        label: 'flutter',
+        number: '95percent',
+        bar: 95,
+        delayAnimation: '0',
+      },
+      {
+        img: 'ionic.png',
+        label: 'ionic',
+        number: '95percent',
+        bar: 95,
+        delayAnimation: '0',
+      },
+    ]
   },
   {
     title: 'versionControl',
     content: 'versionControlContent',
     delayAnimation: 200,
+    images: [
+      {
+        img: 'gitlab.png',
+        label: 'gitlab',
+        number: '95percent',
+        bar: 95,
+        delayAnimation: '0',
+      },
+      {
+        img: 'git.png',
+        label: 'git',
+        number: '95percent',
+        bar: 95,
+        delayAnimation: '0',
+      }]
   },
   {
     title: 'deployment',
     content: 'deploymentContent',
     delayAnimation: 250,
+    images: [{
+      img: 'jenkins.png',
+      label: 'jenkins',
+      number: '90percent',
+      bar: 90,
+      delayAnimation: '100',
+    },
+      {
+        img: 'kubernetes.png',
+        label: 'kubernetes',
+    },
+    {
+      img: 'docker.png',
+      label: 'docker',
+  }]
   },
   {
     title: 'uiux',
     content: 'uiuxContent',
     delayAnimation: 300,
-  },
-];
-export const skillData = [
-  {
-    img: 'react.png',
-    label: 'reactJS',
-    number: '95percent',
-    bar: 95,
-    delayAnimation: '0',
-  },
-  {
-    img: 'ts.png',
-    label: 'typeScript',
-    number: '85percent',
-    bar: 85,
-    delayAnimation: '100',
-  },
-  {
-    img: 'redux.png',
-    label: 'redux',
-    number: '80percent',
-    bar: 80,
-    delayAnimation: '150',
-  },
-  { img: 'js.png', label: 'javascript', number: '90percent', bar: 95, delayAnimation: '200' },
-  { img: 'vue.png', label: 'vueJS', number: '80percent', bar: 80, delayAnimation: '100' },
-  {
-    img: 'react.png',
-    label: 'reactNative',
-    number: '75percent',
-    bar: 75,
-    delayAnimation: '100',
-  },
-  {
-    img: 'nodeJS.png',
-    label: 'nodeJS',
-    number: '85percent',
-    bar: 85,
-    delayAnimation: '100',
-  },
-  { img: 'mongoDB.png', label: 'MongoDB', number: '75percent', bar: 75, delayAnimation: '100' },
-  { img: 'php.png', label: 'PHP', number: '90percent', bar: 90, delayAnimation: '100' },
-  { img: 'php.png', label: 'Wordpress', number: '90percent', bar: 90, delayAnimation: '100' },
-  { img: 'asp.png', label: 'ASP', number: '70percent', bar: 70, delayAnimation: '100' },
-  {
-    img: 'figma.png',
-    label: 'uxui',
-    number: '90percent',
-    bar: 90,
-    delayAnimation: '100',
+    images: [
+      {
+        img: 'figma.png',
+        label: 'figma',
+        number: '90percent',
+        bar: 90,
+        delayAnimation: '100',
+      },
+      {
+        img: 'photoshop.png',
+        label: 'photoshop',
+        number: '90percent',
+        bar: 90,
+        delayAnimation: '100',
+      },
+      {
+        img: 'illustrator.png',
+        label: 'illustrator',
+        number: '90percent',
+        bar: 90,
+        delayAnimation: '100',
+      }]
   },
 ];
 

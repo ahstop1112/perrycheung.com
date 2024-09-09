@@ -1211,8 +1211,10 @@ ul.react-tabs__tab-list {
 }
 .tm_skills h1,h2,h3,h4,h5,h6 {padding-top: 10px; padding-bottom: 10px}
 .tm_skills p{margin-bottom: 10px}
-.logo{ max-width: 35px; margin-right: 15px; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);}
+.logo{ max-width: 35px; margin-right: 15px; 
+  // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  // filter: grayscale(100%);
+}
 .tm_skills .text {
   padding-top: 27px;
 }
@@ -1220,8 +1222,57 @@ ul.react-tabs__tab-list {
   width: 100%;
   height: auto;
 }
-.progress_inner {
+.skills_container{
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+  h3{
+    width: 100%;
+  }
+  >div{
+    width: 100%;
+  }
+  
+  .skills_image_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    // border: 5px solid #ff0;
+
+    .skills_image{
+      flex: 0 0 15%;
+      margin-right: 5%;
+      margin-bottom: 30px;
+      border: 0px solid #fff;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      font-family: 'Poppins';
+      font-weight: 500;
+      color: $white;
+
+      @media screen and (max-width: 768px){
+        flex: 0 0 31.33%;
+        margin-right: 2%;
+      }
+
+      .logo{
+        width: 100%;
+        height: auto !important;
+      }
+
+      span{
+        font-size: 0.86em;
+      }
+    }
+  }
+}
+.progress_inner {
+  flex: 0 0 20%;
   margin-bottom: 34px;
 }
 .progress_inner:last-child {

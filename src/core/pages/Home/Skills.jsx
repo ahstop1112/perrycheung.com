@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation, Trans } from 'react-i18next';
-import { skillData, skillTypeData } from 'core/data/portfolio';
+import { skillTypeData } from 'core/data/portfolio';
 import useHomeStyles from './styles';
 
 const Skills = () => {
@@ -13,8 +13,7 @@ const Skills = () => {
         <div className='tm_title' data-aos='fade-up' data-aos-duration='300'>
           <span>{t('Skills.title')}</span>
         </div>
-        <div className={classes.skillsInner}>
-          <div className={classes.skillsLeft} data-aos='fade-right' data-aos-duration='900'>
+        <div className="skills_container"  data-aos='fade-right' data-aos-duration='900'>
             <h3>
               <Trans i18nKey='Skills.introContent' components={{ bold: <strong /> }} />
             </h3>
@@ -26,41 +25,23 @@ const Skills = () => {
                   data-aos='fade-right'
                   data-aos-duration='1200'
                   data-aos-delay={item.delayAnimation}>
-                  <h6>{t(`Skills.${item.title}`)}</h6>
-                  <p>{t(`Skills.${item.content}`)}</p>
+                  <h5>{t(`Skills.${item.title}`)}</h5>
+                  {/* <p>{t(`Skills.${item.content}`)}</p> */}
+                  <div className="skills_image_container">
+                    {item?.images.map((image) => (
+                    <div
+                        key={image?.label}
+                      className="skills_image"
+                      data-aos='fade-right'
+                      data-aos-duration='1200'
+                      data-aos-delay={image.delayAnimation}>
+                        <img src={`/img/skills/${image?.img}`} className='logo' />
+                        <span className='label'>{t(`Skills.${image?.label}`)}</span>
+                    </div>
+                  ))}
+                  </div>
                 </div>
               ))}
-            <br />
-          </div>
-          {/* End .left */}
-
-          <div className={classes.skillsRight} data-aos='fade-right' data-aos-duration='1200'>
-            <div className='tokyo_progress'>
-              {skillData &&
-                skillData.length > 0 &&
-                skillData.map((item) => (
-                  <div
-                    key={item?.label}
-                    className='progress_inner'
-                    data-aos='fade-right'
-                    data-aos-duration='1200'
-                    data-aos-delay={item.delayAnimation}>
-                    <span>
-                      <img src={`/img/skills/${item?.img}`} className='logo' />
-                      <span className='label'>{t(`Skills.${item?.label}`)}</span>
-                      <span className='number'>{t(`Skills.${item?.number}`)}</span>
-                    </span>
-                    <div className='background'>
-                      <div className='bar'>
-                        <div className='bar_in' style={{ width: item?.bar + '%' }}></div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              {/* End .progress_inner */}
-            </div>
-          </div>
-          {/* End .right */}
         </div>
       </div>
       {/* End .conainer */}

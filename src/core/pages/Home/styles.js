@@ -19,7 +19,7 @@ const HomeStyles = makeStyles((theme) => ({
     '&::after': {
       width: `100%`,
       height: `100%`,
-      content: '" "',
+      content: '" "',  
       position: `absolute`,
       top: 0,
       right: 0,

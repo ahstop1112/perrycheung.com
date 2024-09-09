@@ -31,9 +31,11 @@ const About = () => {
                   <p>{t('About.introContent')}</p>
                   <br />
                   <p>{t('About.introContent2')}</p>
+                  <br />
+                  <p>{t('About.introContent3')}</p>
                 </div>
                 <div className='tm_button' data-aos='fade-up' data-aos-duration='1200'>
-                  <a href='img/resume/PerryCheung_resume20240712.pdf' download>
+                  <a href='img/resume/PerryCheungResume092024.pdf' download>
                     {t('About.downloadCV')}
                   </a>
                 </div>
